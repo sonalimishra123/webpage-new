@@ -1,0 +1,337 @@
+/* body{
+    background:#333;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    position: relative;
+    height: 100vh;
+    background: url(../images/showcase.jpg);
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.container{
+    background: #333;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .nav-item{
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+    font-size: 19px;
+    color:#fff;
+}
+.navbar a:hover{
+    background: rgb(61, 61, 61);
+    padding: 20px;
+}
+h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#fff;
+    padding: 7%;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header-content h1{
+    padding-top: 10%;
+    font-size: 60px;
+}
+.header-content p{
+    padding: 30px;
+    color: #fff;
+    word-spacing: 2px;
+    font-size:20px;
+}
+button{
+    margin: 20px;
+    padding: 13px 20px;
+    font-size: 18px;
+    background:#333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+/* ......................................................showcase................................................... */
+.showcase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+.left{
+    width: 50%;
+    min-height: 100%;
+    background: url(./images/photo-1.jpg);
+}
+.right{
+    width: 50%;
+    min-height: 100%;
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px;
+
+}
+.showcase p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+    word-spacing: 3px;
+    display: inline-block;
+    text-align: center;
+}
+.btn{
+    display: inline-block;
+    justify-content: center;
+    cursor: pointer;
+    background: #fff;
+    color: #333;
+    margin-top:50px ;
+    padding: 12px 20px;
+
+}
+/* <!-- ---------------------------------------------bottom-------------------------------------------------- --> */
+.bottom{
+    display: flex;
+    height: 50%;
+}
+.first{
+    width: 33.33%;
+    padding: 50px;
+    text-align: center;
+    background: #f4f4f4;
+    color: #333;
+
+}
+.second{
+    width: 33.33%;
+    background: #f7c08a;
+    color: #333;
+    text-align: center;
+    padding: 50px;
+
+}
+.third{
+    width: 33.33%;
+    padding: 50px;
+    text-align: center;
+    background: #f4f4f4;
+    color: #333;
+}
+h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bottom p{ 
+    padding: 20px;
+
+}
+.last p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #444;
+    color: #fff;
+    text-align: center;
+    line-height: 1.7em;
+    padding: 20px;
+
+}
+/* ############################################### About Page ########################################### */
+.about{
+    height: 50%;
+    width: 100vw;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 7%;
+    margin: 20px;
+}
+.navbar-about{
+    background: #333;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-about .nav-item{
+    display: inline-block;
+    list-style: none;
+    padding: 20px;
+    font-size: 19px;
+    color:#fff;
+}
+.container-two h2{
+    font-size:40px;
+    text-align: start;
+}
+.container-two p{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    width: 70%;
+    display: flex;
+    text-align: start;
+    line-height: 1.7rem;
+    word-spacing: 2px;
+}
+img{
+    display: flex;
+    text-align: end;
+    border-radius: 100%;
+    width: 60%;
+    margin:30px;
+}
+.about-bottom{
+    background: url(./images/test-bg.jpg);
+}
+.about-bottom h2{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+}
+.flex-row img{
+    height: 120px;
+    width: 120px;
+
+}
+.flex-row .one{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 141px;
+    border-radius: 8px;
+    padding: 0 20px;
+    background:#f7c08a;
+    margin-left: 9%;
+    line-height: 1.7em;
+}
+.flex-row .two{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 141px;
+    border-radius: 8px;
+    padding: 0 20px;
+    background:#f7c08a;
+    margin-left: 9%;
+    margin-top: 4%;
+    margin-bottom: 9%;
+    line-height: 1.7em;
+}
+/* ###################################### Contact Page######################## */
+.contact{
+    position: relative;
+    height: 100vh;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+.container-three{
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    line-height: 1.7rem;
+}
+.container-three h2{
+    font-size: 45px;
+    padding-left:10%;
+}
+.container-three p{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding-left:10% ;
+}
+.container-three form address{
+    width:500px;
+    height:280px;
+    padding:10px;
+}
+.container-three label{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    margin-bottom: 5px;
+    width: 100%;
+    padding: 10px 0px;
+    padding-left:10% ;
+}
+.container-three input{
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-left: 10%;
+    width: 80%;
+    padding: 10px 0px;
+}
+.container-three textarea{
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-left: 10%;
+    width: 80%;
+    height: 200px;
+}
+.container-three button{
+    margin-left: 10%;
+}
+/* --------------------------------------------------footer---------------- */
+.contect-footer{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333;
+    height: 30%;
+    color: #fff;
+}
+.contect-footer i{
+    height: 50px;
+    width: 48px;
+    margin-bottom: 3%;
+}
+.contect-footer h4{
+    font-size: 1.17em;
+    margin-bottom: 10%;
+}
+.footer-one{
+    width: 33.33%;
+    text-align: center;
+}
+.footer-two{
+    width: 33.33%;
+    text-align: center;
+}
+.footer-three{
+    width: 33.33%;
+    text-align: center;
+}
+
+
+
+
+/* .third{
+    width: 33.33%;
+    padding: 50px;
+    text-align: center;
+    background: #f4f4f4;
+    color: #333;
+} */
+
+
+/* .bottom p{ 
+    padding: 20px;
+
+} */
